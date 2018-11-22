@@ -9,7 +9,7 @@ displayed as an overlayed rectangle.  This rectangle can be
 translated with the WASD keys or the arrow keys.  The rectangle 
 can be dragged with the mouse wheel button.
 
-Actually, I used the placed the pixmap on the heap which is not the 
+Actually, I used the the pixmap on the heap which is not the 
 best thing to do.  Can use QPixmap pixmap rather than QPixmap* pixmap. 
 This should give faster drawing.  Is much easier to just use QImage 
 rather than QPixmap.
